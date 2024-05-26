@@ -1,0 +1,79 @@
+body{
+	Font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img{
+	width: 82px;
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.card{
+	margin: 0 auto;
+}
+
+.text-secondary{
+	font-weight: 80;
+	color: #707070;
+	margin: 0;
+}
+
+.text-secondary-2 {
+	font-size: 13px;
+	color: #707070;
+	font-weight: 80;
+}
+
+.text-success{
+	font-size: 20px;
+	font-weight: 62px;
+}
+
+.precios{
+	text-align: right;
+}
+.precios a {
+    text-decoration: none; 
+}
+
+form{
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .bg-success h3 {
+        font-size: 28px;
+}
+
+.bg-success form {
+    padding: 10px;
+}
+
+.bg-success .form-control {
+    padding: 5px;
+    }
+}
+
+hr {
+	box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+footer{
+	text-align: center;
+}
+
+footer img{
+	width: 82px;
+	padding-top: 30px;
+}
+
+footer p{
+	color:#707070;
+	font-weight:100;
+}
+
+@media (max-width: 992px) {
+}
